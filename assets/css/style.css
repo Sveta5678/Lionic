@@ -72,7 +72,7 @@ a {
 /* header */
 
 .header {
-  padding: 36px 0;
+  padding: 30px 0;
   border-bottom: 1px solid #c4c4c4;
   background-color: white;
 }
@@ -296,4 +296,57 @@ a {
   font-size: 14px;
   font-weight: 400;
   line-height: 180%;
+}
+/* contacts */
+
+.contacts-title {
+  margin-bottom: 109px;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+.contacts-list {
+  display: flex;
+}
+
+.contacts-item {
+  background-size: 29px;
+  background-repeat: no-repeat;
+  width: 370px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-visit {
+  background-image: url("../img/contacts/location_on.svg");
+}
+.contacts-caption {
+  color: rgb(28, 28, 28);
+
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+.contacts-text {
+  color: rgb(120, 120, 120);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  max-width: 214px;
+}
+.contacts-call {
+  background-image: url("../img/contacts/phone.svg");
+}
+.contacts-link {
+  color: rgb(120, 120, 120);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.contacts-email {
+  background-image: url("../img/contacts/mail.svg");
 }
