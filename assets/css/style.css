@@ -169,10 +169,12 @@ a {
   font-size: 16px;
   line-height: 155%;
   margin-bottom: 34px;
+  max-width: 471px;
 }
 
 .hero-btn {
   margin-bottom: 14px;
+  padding: 19px 58px ;
 }
 
 .hero-secured {
@@ -228,7 +230,9 @@ a {
   align-items: center;
   transition: 0.5s;
 }
-
+.services-icon{
+  margin-bottom: 34px;
+}
 .services-icon path {
   margin-bottom: 27px;
 
@@ -430,13 +434,14 @@ a {
 
 .contacts-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .contacts-item {
   background-size: 29px;
   background-repeat: no-repeat;
   width: 370px;
-  padding-top: 48px;
+  padding-top: 42px;
   display: flex;
   flex-direction: column;
 }
@@ -491,7 +496,9 @@ a {
 }
 
 /* Join */
-
+.join{
+  padding-bottom: 124px;
+}
 .join-title {
   text-align: center;
   margin-bottom: 22px;
@@ -530,6 +537,7 @@ a {
   padding: 15px 28px 16px 28px;
   width: 251px;
   transition: 0.5s;
+  height: 60px;
 }
 
 .form-input:focus,
@@ -576,6 +584,7 @@ a {
   border-radius: 50px;
   width: 230px;
   margin-bottom: 9px;
+  padding: 20px 53px;
 }
 
 .form-link {
